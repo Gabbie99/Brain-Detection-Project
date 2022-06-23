@@ -1,24 +1,68 @@
 body{
-    background-image: url(gif11.gif); 
+    background-image: url(gradient.webp); 
+    background-size: cover;
 }
 .nav{
-    color: white;
+    color: plum;
     display: flex;
     justify-content: flex-end;
     padding-top: 15px;
 }
 .nav a{
-    color: white;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
 }
 .nav a:hover{
-    color: grey;
+    color: mediumorchid;
 }
 img{
-    background: none;
+    background:linear-gradient();
     box-sizing: border-box;
     color: white;
     border-radius: 7px;
     padding: 15px 30px;
+}
+.cont{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+.hello{
+    color: mediumvioletred;
+}
+p{
+    color: black;
+}
+.inp{
+    background:radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+    linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+    background-size: 40px 60px;
+    border-radius: 8px;
+    padding: 30px;
+    width: 50%;
+    margin-left: 30rem;
+    margin-top: 4rem;
+}
+.inp input{
+    padding: 20px;
+    border-radius: 2px;
+    background: lavender;
+}
+button{
+    padding: 18px;
+    text-align: center;
+    background-color: palevioletred;
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 300;
+}
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
